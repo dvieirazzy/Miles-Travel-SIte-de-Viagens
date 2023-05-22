@@ -1,0 +1,19 @@
+@keyframes arrow {
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes morph-effect {
+    0%, 20%, 100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    40%, 80%{
+        filter: blur(16px);
+        opacity: 0;
+    }
+}
